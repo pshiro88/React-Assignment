@@ -134,7 +134,7 @@ export default function Eligibility() {
                     </ul>
 
                 </div>
-                <div className="p-4 border-b-2 border-dashed border-[#3DB6FB] ">
+                <div className="p-4 border-b-2 border-dashed border-[#3DB6FB] " id="Rec">
                     <h2 className="text-2xl font-bold mb-4"> Treatment Recovery Tips</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur hic officia dignissimos
                         necessitatibus tempora ad nulla ipsam nemo quas excepturi quae, distinctio, illo, ducimus consequatur

@@ -25,7 +25,7 @@ function FAQItem({ question, answer }) {
 export default function FAQSection() {
   return (
     <div className="container mx-auto py-8 border-b-2 border-dashed border-[#3DB6FB]">
-      <h1 className="text-2xl font-bold mb-8 text-left">Treatment FAQs</h1>
+      <h1 className="text-2xl font-bold mb-8 text-left" id="FAQs">Treatment FAQs</h1>
 
       <div className="faq-list">
         <FAQItem

@@ -9,6 +9,8 @@ import FullCrousal from '../components/fullCrousal'
 import Poloroid from '../components/poloroid'
 import Hostpitals from '../components/hospitals'
 import CTA  from '../components/cta'; 
+import Footer  from '../components/footer';
+
 export default function Home() {
   return (
     <>
@@ -36,7 +38,7 @@ export default function Home() {
       />
       <p className='w-full font-semibold text-xl py-10 text-center'>Don't Hesitate contact us better <span className='text-red-500 underline'>Explore all Hospitals</span></p>
       <CTA/>
-      <div className='p-10'></div>
+      <Footer/>
     </>
   )
 }

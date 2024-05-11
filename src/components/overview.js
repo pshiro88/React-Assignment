@@ -11,8 +11,8 @@ export default function OverView() {
                     <a href="#" className="text-sm text-black hover:text-gray-500">Preparation</a>
                     <a href="#" className="text-sm text-black hover:text-gray-500">About Treatment</a>
                     <a href="#" className="text-sm text-black hover:text-gray-500">Post Treatment Care</a>
-                    <a href="#" className="text-sm text-black hover:text-gray-500">Recovery Tips</a>
-                    <a href="#" className="text-sm text-black hover:text-gray-500">FAQs</a>
+                    <a href="#Rec" className="text-sm text-black hover:text-gray-500">Recovery Tips</a>
+                    <a href="#FAQs" className="text-sm text-black hover:text-gray-500">FAQs</a>
                     <a href="#" className="text-sm text-black hover:text-gray-500">Patient Stories</a>
                     {/* Add more navigation links as needed */}
                 </div>
