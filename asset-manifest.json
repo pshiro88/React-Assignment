@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Assignment/static/css/main.ccba0cba.css",
-    "main.js": "/React-Assignment/static/js/main.f1557d73.js",
+    "main.css": "/React-Assignment/static/css/main.71f25548.css",
+    "main.js": "/React-Assignment/static/js/main.898d6c6f.js",
     "static/js/453.ec1520c3.chunk.js": "/React-Assignment/static/js/453.ec1520c3.chunk.js",
     "static/media/hero.png": "/React-Assignment/static/media/hero.36c74ff553feaf4709bb.png",
+    "static/media/doctor-logo.png": "/React-Assignment/static/media/doctor-logo.27e5feb5a2db5ba641a6.png",
     "static/media/doctor1.jpg": "/React-Assignment/static/media/doctor1.8443fd031d768355fe14.jpg",
+    "static/media/medical-opinion.png": "/React-Assignment/static/media/medical-opinion.255e744d0788a6e584b4.png",
+    "static/media/email.png": "/React-Assignment/static/media/email.a4a7bb65e9c57782dea5.png",
     "static/media/doctor-2.jpg": "/React-Assignment/static/media/doctor-2.71b012e66ecb77628660.jpg",
     "static/media/logo.jpg": "/React-Assignment/static/media/logo.e01115680d03ad552130.jpg",
     "static/media/doctor-3.jpg": "/React-Assignment/static/media/doctor-3.35d429e24d8225495852.jpg",
+    "static/media/flag.png": "/React-Assignment/static/media/flag.6c98577e8df7408ea1cd.png",
+    "static/media/call-us.png": "/React-Assignment/static/media/call-us.7586385ad20bcdaad1a9.png",
     "index.html": "/React-Assignment/index.html",
-    "main.ccba0cba.css.map": "/React-Assignment/static/css/main.ccba0cba.css.map",
-    "main.f1557d73.js.map": "/React-Assignment/static/js/main.f1557d73.js.map",
+    "main.71f25548.css.map": "/React-Assignment/static/css/main.71f25548.css.map",
+    "main.898d6c6f.js.map": "/React-Assignment/static/js/main.898d6c6f.js.map",
     "453.ec1520c3.chunk.js.map": "/React-Assignment/static/js/453.ec1520c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccba0cba.css",
-    "static/js/main.f1557d73.js"
+    "static/css/main.71f25548.css",
+    "static/js/main.898d6c6f.js"
   ]
 }
