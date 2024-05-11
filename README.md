@@ -35,11 +35,6 @@ To use or contribute to this project, follow these steps:
 
 1. *Clone the Repository:*
 
-    bash
-    git clone https://github.com/your-username/single-page-website.git
-    cd single-page-website
-    
-
 2. *Update Project React:*
 
     If you haven't installed Node.js and npm, download and install them from [https://nodejs.org/](https://nodejs.org/).
