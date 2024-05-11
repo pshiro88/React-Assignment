@@ -1,71 +1,104 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import quotes from "../assets/images/quotes.png"
+import doctor2 from "../assets/images/doctor-2.jpg"
+import doctor3 from "../assets/images/doctor-3.jpg"
 
-const Carousel = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 2; // Total number of slides
-  const autoMoveInterval = 5000; // Interval for auto-moving (in milliseconds)
+export default function Carousel() {
 
-  // Array of card objects with different content and styles
-  const slides = [
-    { id: 0, colors: ['bg-blue-200', 'bg-green-200'], text: ['Slide 1 Text 1', 'Slide 1 Text 2'] },
-    { id: 1, colors: ['bg-yellow-200', 'bg-red-200'], text: ['Slide 2 Text 1', 'Slide 2 Text 2'] },
-  ];
+    return (
+        <div className='h-1/5  container mx-auto py-8 '>
+            <h1 className="text-2xl font-bold mb-8 text-left">Patient Stories & Videos</h1>
+            <OwlCarousel className='owl-theme ' loop margin={10} items={2} nav>
+                <div class='w-full min-h-[220px] border-2 p-4 '>
+                    <div style={{ display: 'flex', width: '100%' }}>
+                        {/* First column (80%) */}
+                        <div style={{ flex: '0 0 80%' }}>
+                            <h1 className='text-xl font-bold mb-8'>Underwent procedurer for retinal detachment</h1>
+                        </div>
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      nextSlide();
-    }, autoMoveInterval);
+                        <div style={{ flex: '0 0 20%' }}>
+                            <img src={quotes}></img>
+                        </div>
+                    </div>
+                    <img src={doctor2}></img>
 
-    return () => clearInterval(intervalId);
-  }, [currentSlide]);
+                    <div className='flex pt-8  overflow-hidden'>
+                        {/* Avatar */}
+                        <div className='h-[50px] w-[50px] mr-4'>
+                        <img class="inline-block  rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
 
-  const nextSlide = () => {
-    setCurrentSlide((currentSlide + 1) % totalSlides);
-  };
+                        </div>
 
-  const prevSlide = () => {
-    setCurrentSlide((currentSlide - 1 + totalSlides) % totalSlides);
-  };
+                        {/* Name */}
+                        <div >
+                            <h1 className='text-xl font-semibold'>James Alfrad</h1>
+                            <h2 className='text-sm text-gray-500'>New York, USA</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class='w-full min-h-[220px] border-2 p-4 '>
+                    <div style={{ display: 'flex', width: '100%' }}>
+                        {/* First column (80%) */}
+                        <div style={{ flex: '0 0 80%' }}>
+                            <h1 className='text-xl font-bold mb-8'>Underwent procedurer for retinal detachment</h1>
+                        </div>
 
-  return (
-    <div className="w-full max-w-lg mx-auto relative">
-      <div className="overflow-hidden h-64 rounded-lg">
-        {/* Carousel container */}
-        <div
-          className="flex flex-row transition-transform duration-300 ease-in-out"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }} // Adjusted to show two slides at a time
-        >
-          {/* Slides */}
-          {slides.map((slide) => (
-            <div key={slide.id} className="px-2">
-              <div className="flex flex-row w-[500px]  h-64">
-                {slide.colors.map((color, index) => (
-                  <div key={index} className={`${color} flex-1 mx-4 flex justify-center items-center mb-2 rounded-md`}>
-                    <p className="text-white">{slide.text[index]}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
+                        <div style={{ flex: '0 0 20%' }}>
+                            <img src={quotes}></img>
+                        </div>
+                    </div>
+                    <div className='min-h-[210px]'>
+
+                    <p >Irure velit velit ullamco tempor reprehenderit est adipisicing aute duis. Duis in exercitation pariatur tempor commodo qui voluptate occaecat dolore commodo culpa Lorem. Adipisicing voluptate laboris irure nulla.</p>
+                    </div>
+
+                    <div className='flex pt-8  overflow-hidden'>
+                        {/* Avatar */}
+                        <div className='h-[50px] w-[50px] mr-4'>
+                        <img class="inline-block  rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+
+                        </div>
+
+                        {/* Name */}
+                        <div >
+                            <h1 className='text-xl font-semibold'>James Alfrad</h1>
+                            <h2 className='text-sm text-gray-500'>New York, USA</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class='w-full min-h-[220px] border-2 p-4 '>
+                    <div style={{ display: 'flex', width: '100%' }}>
+                        {/* First column (80%) */}
+                        <div style={{ flex: '0 0 80%' }}>
+                            <h1 className='text-xl font-bold mb-8'>Underwent procedurer for retinal detachment</h1>
+                        </div>
+
+                        <div style={{ flex: '0 0 20%' }}>
+                            <img src={quotes}></img>
+                        </div>
+                    </div>
+                    <img src={doctor2}></img>
+
+                    <div className='flex pt-8  overflow-hidden'>
+                        {/* Avatar */}
+                        <div className='h-[50px] w-[50px] mr-4'>
+                        <img class="inline-block  rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+
+                        </div>
+
+                        {/* Name */}
+                        <div >
+                            <h1 className='text-xl font-semibold'>James Alfrad</h1>
+                            <h2 className='text-sm text-gray-500'>New York, USA</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </OwlCarousel>
         </div>
-      </div>
-
-      
-
-      {/* Indicators */}
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center mt-4">
-        {[...Array(totalSlides)].map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentSlide(index)}
-            className={`w-4 h-4 mx-2 rounded-full bg-gray-400 hover:bg-gray-600 focus:outline-none focus:bg-gray-600 ${
-              index === currentSlide ? 'bg-gray-600' : ''
-            }`}
-          ></button>
-        ))}
-      </div>
-    </div>
-  );
+    );
 };
 
-export default Carousel;

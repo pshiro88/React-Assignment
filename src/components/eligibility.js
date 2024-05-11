@@ -1,5 +1,5 @@
 import { React, useRef, useEffect, useState } from 'react';
-import FAQSection from './accordion';
+import FAQSection from '../components/accordion';
 import Carousel from './carousel';
 
 export default function Eligibility() {
