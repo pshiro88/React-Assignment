@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.b23649be.css",
+    "main.js": "/react-gh-pages/static/js/main.b5a84c24.js",
+    "static/js/453.ec1520c3.chunk.js": "/react-gh-pages/static/js/453.ec1520c3.chunk.js",
+    "static/media/hero.png": "/react-gh-pages/static/media/hero.36c74ff553feaf4709bb.png",
+    "static/media/doctor1.jpg": "/react-gh-pages/static/media/doctor1.8443fd031d768355fe14.jpg",
+    "static/media/doctor-2.jpg": "/react-gh-pages/static/media/doctor-2.71b012e66ecb77628660.jpg",
+    "static/media/logo.jpg": "/react-gh-pages/static/media/logo.e01115680d03ad552130.jpg",
+    "static/media/doctor-3.jpg": "/react-gh-pages/static/media/doctor-3.35d429e24d8225495852.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.b23649be.css.map": "/react-gh-pages/static/css/main.b23649be.css.map",
+    "main.b5a84c24.js.map": "/react-gh-pages/static/js/main.b5a84c24.js.map",
+    "453.ec1520c3.chunk.js.map": "/react-gh-pages/static/js/453.ec1520c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b23649be.css",
+    "static/js/main.b5a84c24.js"
+  ]
+}
