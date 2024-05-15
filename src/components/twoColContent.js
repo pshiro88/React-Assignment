@@ -2,8 +2,8 @@ import React from 'react'
 import doctor1 from '../assets/images/doctor1.jpg';
 export default function TwoColContent() {
   return (
-    <div className="flex pt-10 px-2  border-b-2 border-dashed  border-[#3DB6FB]">
-      <div className="w-1/2">
+    <div className="flex flex-col pt-10 px-2 border-b-2 border-dashed border-[#3DB6FB] lg:flex-row">
+      <div className="lg:w-1/2 w-full">
         <div className="p-4">
           <h2 className="text-2xl font-bold mb-4">Treatment overview</h2>
           <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -11,7 +11,7 @@ export default function TwoColContent() {
           <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="lg:w-1/2 w-full">
         <img src={doctor1} className="w-full h-auto p-20" />
       </div>
       

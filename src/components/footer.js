@@ -4,56 +4,56 @@ import Logo from '../assets/images/logo-white.png'
 export default function Footer() {
     return (
         <div className='bg-[#12354a]'>
-            <div className='flex justify-between   p-20 items-start min-h-[400px]'>
+            <div className='flex justify-between p-10 md:p-20 items-start flex-wrap min-h-[400px]'>
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-white">Important Links</h2>
                     <ul className="pl-4 text-white leading-7">
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Home</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> About Us</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Services</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Portfolio</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Contact Us</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Blog</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Careers</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Home</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> About Us</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Services</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Portfolio</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Contact Us</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Blog</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Careers</li>
                         {/* Add more list items as needed */}
                     </ul>
                 </div>
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-white">Top Hospitals</h2>
                     <ul className="pl-4 text-white leading-7">
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Apollo Hospital Delhi</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Medanta Hospital Gurgaon</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Max Hospital Delhi</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Jaslok hospital Mumbai</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Artemis hospital Gurgaon</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Apollo Hospital Delhi</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Medanta Hospital Gurgaon</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Max Hospital Delhi</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Jaslok hospital Mumbai</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Artemis hospital Gurgaon</li>
                         {/* Add more list items as needed */}
                     </ul>
                 </div>
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-white">Speciality Treatments</h2>
                     <ul className="pl-4 text-white leading-7">
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Apollo Hospital Delhi</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Medanta Hospital Gurgaon</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Max Hospital Delhi</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Jaslok hospital Mumbai</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Artemis hospital Gurgaon</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Apollo Hospital Delhi</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Medanta Hospital Gurgaon</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Max Hospital Delhi</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Jaslok hospital Mumbai</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Artemis hospital Gurgaon</li>
                         {/* Add more list items as needed */}
                     </ul>
                 </div>
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-white">Medical Tourism</h2>
                     <ul className="pl-4 text-white leading-7">
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Apollo Hospital Delhi</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Medanta Hospital Gurgaon</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Max Hospital Delhi</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Jaslok hospital Mumbai</li>
-                        <li className='font-sm'><span className='text-[#66c2fb] font-bold'>-</span> Artemis hospital Gurgaon</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Apollo Hospital Delhi</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Medanta Hospital Gurgaon</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Max Hospital Delhi</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Jaslok hospital Mumbai</li>
+                        <li className='text-sm pb-2'><span className='text-[#66c2fb] font-bold'>-</span> Artemis hospital Gurgaon</li>
                         {/* Add more list items as needed */}
                     </ul>
                 </div>
             </div>
-            <div className='border-2 text-white border-gray-500 w-auto h-0 ms-20 me-20 ' ></div>
-            <div className="flex min-h-[200px] justify-between items-center ms-20 me-20 pt-8 pb-8">
+            <div className='border-2 text-white border-gray-500 w-auto h-0 ms-0 lg:ms-20 me-0 lg:me-20 ' ></div>
+            <div className="flex flex-col lg:flex-row min-h-[200px] justify-between items-center ms-2 lg:ms-20 me-2 lg:me-20 pt-8 pb-8">
                 {/* Logo */}
                 <div className="flex-shrink-0">
                     <img src={Logo} alt="Logo" className="h-24" />
@@ -68,7 +68,7 @@ export default function Footer() {
                 </div>
 
                 {/* Quick links */}
-                <div className="flex-shrink-0 min-w-80 flex flex-col items-end justify-end">
+                <div className="flex-shrink-0 min-w-80 flex flex-col items-center lg:items-end justify-end">
                     <h1 className='text-3xl text-white font-white font-bold py-5'>Follow us On</h1>
                     <div className='flex flex-row space-x-5'>
                         <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2]">
@@ -104,14 +104,14 @@ export default function Footer() {
                 </div>
             </div>
 
-            <header className="  text-white bg-[#3db5ff] p-4 flex justify-between items-center">
+            <header className="text-white bg-[#3db5ff] p-4 flex justify-between items-center">
                 {/* Logo */}
-                <div className="flex items-center ps-8">
+                <div className="flex items-center ps-8 text-sm pb-2">
                     <p>Copywrite Aafia mediretreats. All Right Reserved. Designed by Ideamagix</p>
                 </div>
 
                 {/* Promotional elements */}
-                <div className="flex items-center pe-8 space-x-12">
+                <div className="flex items-center pe-8 space-x-12 text-sm pb-2">
                     <p>Terms And condition</p>
                     <p>Privacy Policy</p>
                     {/* Add other logos here if needed */}

@@ -5,7 +5,7 @@ export default function OverView() {
         <nav className={`text-white border-b  border-gray-300`}>
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 {/* Navigation Links */}
-                <div className="flex items-center space-x-8  p-4">
+                <div className="hidden lg:flex items-center space-x-8  p-4">
                     <a href="#" className="text-sm text-black hover:text-gray-500">Overview</a>
                     <a href="#" className="text-sm text-black hover:text-gray-500">Eligibilty</a>
                     <a href="#" className="text-sm text-black hover:text-gray-500">Preparation</a>

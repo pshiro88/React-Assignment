@@ -13,12 +13,12 @@ import Footer  from '../components/footer';
 
 export default function Home() {
   return (
-    <>
+    <div className='overflow:hidden'>
       <Header />
       <Navbar />
       <Hero />
       <OverView />
-      <div className='p-12'>
+      <div className=' lg:p-12'>
         <TwoColContent />
         <Eligibility />
       </div>
@@ -36,9 +36,9 @@ export default function Home() {
         color="#ffffff"
         content={<Hostpitals />}
       />
-      <p className='w-full font-semibold text-xl py-10 text-center'>Don't Hesitate contact us better <span className='text-red-500 underline'>Explore all Hospitals</span></p>
+      <p className='w-full font-semibold text-sm lg:text-xl py-10 text-center '>Don't Hesitate contact us better <span className='text-red-500 underline'>Explore all Hospitals</span></p>
       <CTA/>
       <Footer/>
-    </>
+    </div>
   )
 }

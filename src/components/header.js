@@ -9,15 +9,15 @@ import Flag from '../assets/images/flag.png'
 export default function Header() {
     return (
 
-        <header className=" text-white p-4 flex justify-between items-center">
+        <header className=" text-white p-4 flex justify-between items-center ">
             {/* Logo */}
-            <div className="flex items-center ps-8">
+            <div className="flex items-center ps-1 lg:ps-8">
                 <img src={Logo} alt="Logo" className="h-14" />
                 {/* Add other logos here if needed */}
             </div>
 
             {/* Promotional elements */}
-            <div className="flex items-center ps-8 space-x-12">
+            <div className="items-center ps-8 space-x-12 hidden lg:flex">
                 <img src={DoctorsLogo} alt="Logo" className="h-14" />
                 <img src={MedicalOpinion} alt="Logo" className="h-14" />
                 <img src={CallUs} alt="Logo" className="h-14" />

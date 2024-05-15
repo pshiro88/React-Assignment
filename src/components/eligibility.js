@@ -31,8 +31,8 @@ export default function Eligibility() {
 
 
     return (
-        <div className="flex pt-10 px-2" >
-            <div className="w-1/2" ref={leftRef}>
+        <div className="flex flex-col pt-10 px-2 lg:flex-row" >
+            <div className="w-full lg:w-1/2" ref={leftRef}>
                 <div className="p-4">
                     <h2 className="text-2xl font-bold mb-4">Eligibility For Treatment</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur hic officia dignissimos
@@ -164,7 +164,7 @@ export default function Eligibility() {
                 <div className="p-4"></div>
             </div>
             
-            <div class={`w-1/2 max-w-md mx-auto mt-8 h-2/6 bg-white rounded-lg shadow-lg overflow-hidden ${isSticky ? 'sticky top-0  overflow-hidden' : ''
+            <div class={`w-full max-w-md mx-auto mt-8 h-2/6 bg-white rounded-lg shadow-lg overflow-hidden lg:w-1/2 ${isSticky ? 'sticky top-0  overflow-hidden' : ''
                 }`} ref={rightRef}>
                 <div class="px-6 py-4">
                     <h2 class="text-3xl font-semibold  text-[#3DB6FB] mb-2">Need Help?</h2>
