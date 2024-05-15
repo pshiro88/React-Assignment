@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Assignment/static/css/main.4142a201.css",
-    "main.js": "/React-Assignment/static/js/main.eb8ab5db.js",
+    "main.css": "/React-Assignment/static/css/main.5f7bd8ef.css",
+    "main.js": "/React-Assignment/static/js/main.6f4d2740.js",
     "static/js/453.ec1520c3.chunk.js": "/React-Assignment/static/js/453.ec1520c3.chunk.js",
     "static/media/logo-white.png": "/React-Assignment/static/media/logo-white.6acb516a3d6c0dfb61e3.png",
     "static/media/hero.png": "/React-Assignment/static/media/hero.36c74ff553feaf4709bb.png",
@@ -15,12 +15,12 @@
     "static/media/flag.png": "/React-Assignment/static/media/flag.6c98577e8df7408ea1cd.png",
     "static/media/call-us.png": "/React-Assignment/static/media/call-us.7586385ad20bcdaad1a9.png",
     "index.html": "/React-Assignment/index.html",
-    "main.4142a201.css.map": "/React-Assignment/static/css/main.4142a201.css.map",
-    "main.eb8ab5db.js.map": "/React-Assignment/static/js/main.eb8ab5db.js.map",
+    "main.5f7bd8ef.css.map": "/React-Assignment/static/css/main.5f7bd8ef.css.map",
+    "main.6f4d2740.js.map": "/React-Assignment/static/js/main.6f4d2740.js.map",
     "453.ec1520c3.chunk.js.map": "/React-Assignment/static/js/453.ec1520c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4142a201.css",
-    "static/js/main.eb8ab5db.js"
+    "static/css/main.5f7bd8ef.css",
+    "static/js/main.6f4d2740.js"
   ]
 }
