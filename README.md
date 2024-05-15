@@ -52,7 +52,7 @@ To use or contribute to this project, follow these steps:
 
 5. *Access the Application:*
 
-    Open your web browser and go to [http://localhost:3000/](http://localhost:3000/) to view the single-page website.
+    Open your web browser and go to [(https://pshiro88.github.io/React-Assignment/)] to view the single-page website.
 
 ## Feedback 📬
 
