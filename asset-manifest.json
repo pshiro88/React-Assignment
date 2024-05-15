@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Assignment/static/css/main.43ddf744.css",
-    "main.js": "/React-Assignment/static/js/main.5e67c3b7.js",
+    "main.js": "/React-Assignment/static/js/main.ff681cf3.js",
     "static/js/453.ec1520c3.chunk.js": "/React-Assignment/static/js/453.ec1520c3.chunk.js",
     "static/media/logo-white.png": "/React-Assignment/static/media/logo-white.6acb516a3d6c0dfb61e3.png",
     "static/media/hero.png": "/React-Assignment/static/media/hero.36c74ff553feaf4709bb.png",
@@ -16,11 +16,11 @@
     "static/media/call-us.png": "/React-Assignment/static/media/call-us.7586385ad20bcdaad1a9.png",
     "index.html": "/React-Assignment/index.html",
     "main.43ddf744.css.map": "/React-Assignment/static/css/main.43ddf744.css.map",
-    "main.5e67c3b7.js.map": "/React-Assignment/static/js/main.5e67c3b7.js.map",
+    "main.ff681cf3.js.map": "/React-Assignment/static/js/main.ff681cf3.js.map",
     "453.ec1520c3.chunk.js.map": "/React-Assignment/static/js/453.ec1520c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43ddf744.css",
-    "static/js/main.5e67c3b7.js"
+    "static/js/main.ff681cf3.js"
   ]
 }
